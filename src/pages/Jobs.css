@@ -1,0 +1,7 @@
+.jobs-page{padding:2rem 0;min-height:60vh}
+.jobs-page h2{text-align:center;margin-bottom:1rem}
+.filters{display:flex;gap:0.8rem;justify-content:center;margin-bottom:1.2rem;flex-wrap:wrap}
+.filters input,.filters select{padding:0.6rem;border-radius:8px;border:1px solid #e6e9ee;min-width:180px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:1rem}
+.no{text-align:center;color:var(--muted)}
+@media(max-width:700px){.filters{flex-direction:column;align-items:center}}

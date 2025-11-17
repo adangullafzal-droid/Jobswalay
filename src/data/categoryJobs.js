@@ -1,0 +1,58 @@
+const categoryJobs = [
+  {
+    id: 1,
+    title: "UI Designer",
+    description: "Design beautiful user interfaces for websites and apps.",
+    categorySlug: "design-creative",
+    location: "Lahore",
+    type: "Full-time",
+    salary: "PKR 50,000",
+  },
+  {
+    id: 2,
+    title: "Frontend Developer",
+    description: "React.js developer role for web projects.",
+    categorySlug: "design-development",
+    location: "Lahore",
+    type: "Part-time",
+    salary: "PKR 40,000",
+  },
+  {
+    id: 3,
+    title: "Digital Marketing Specialist",
+    description: "Manage marketing campaigns and social media.",
+    categorySlug: "sales-marketing",
+    location: "Lahore",
+    type: "Full-time",
+    salary: "PKR 35,000",
+  },
+  {
+    id: 4,
+    title: "Mobile App Developer",
+    description: "Build Android and iOS applications.",
+    categorySlug: "mobile-application",
+    location: "Lahore",
+    type: "Full-time",
+    salary: "PKR 60,000",
+  },
+  {
+    id: 5,
+    title: "Construction Manager",
+    description: "Oversee construction projects and teams.",
+    categorySlug: "construction",
+    location: "Lahore",
+    type: "Full-time",
+    salary: "PKR 70,000",
+  },
+  {
+    id: 6,
+    title: "Content Writer",
+    description: "Write blog posts, articles, and web content.",
+    categorySlug: "content-writer",
+    location: "Remote",
+    type: "Part-time",
+    salary: "PKR 20,000",
+  },
+];
+
+export default categoryJobs;

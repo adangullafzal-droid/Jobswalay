@@ -1,0 +1,45 @@
+.detail-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 40px 70px;
+}
+
+.detail-content {
+  width: 100%;
+}
+
+.apply-button {
+  padding: 12px 25px;
+  background: #7a6cf5;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 200px;
+  margin: 20px 0;
+  transition: 0.3s;
+}
+
+.apply-button:hover {
+  background: #5f4ee8;
+}
+
+.detail-banner {
+  height: 200px;
+  background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
+              url("../assets/banner.jpg") center/cover no-repeat;
+  color: white;
+  text-align: center;
+  padding-top: 60px;
+}
+
+.detail-banner h1 { font-size: 38px; margin-bottom: 5px; }
+.detail-banner p { font-size: 18px; opacity: 0.9; }
+
+@media (max-width: 768px) {
+  .detail-container {
+    padding: 20px;
+  }
+}

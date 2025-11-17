@@ -1,0 +1,82 @@
+.candidate-login-page {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url('https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1470&q=80') center/cover no-repeat;
+  background-color: #111; /* Light black overlay */
+  position: relative;
+  font-family: "Poppins", sans-serif;
+}
+
+.candidate-login-page::after {
+  content: "";
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(0,0,0,0.6);
+}
+
+.candidate-login-box {
+  position: relative;
+  z-index: 1;
+  background: linear-gradient(135deg, #6a11cb, #2575fc, #6a11cb);
+  padding: 40px;
+  border-radius: 20px;
+  width: 400px;
+  color: white;
+  text-align: center;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+}
+
+.candidate-login-box h2 {
+  margin-bottom: 25px;
+}
+
+.candidate-login-box input {
+  width: 100%;
+  padding: 12px 15px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  border: none;
+  font-size: 1rem;
+}
+
+.forget-password {
+  text-align: left;
+  margin-bottom: 12px;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.robot-check {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  font-size: 0.9rem;
+  gap: 5px;
+}
+
+.candidate-login-box button {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  background-color: white;
+  color: #111;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.candidate-login-box button:hover {
+  background-color: #e0e0e0;
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+  .candidate-login-box {
+    width: 90%;
+    padding: 30px;
+  }
+}

@@ -1,0 +1,64 @@
+.employer-login-page {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364); /* 2 shades black + blue */
+  font-family: "Poppins", sans-serif;
+}
+
+.employer-login-box {
+  background-color: rgba(0,0,0,0.85);
+  padding: 40px;
+  border-radius: 20px;
+  width: 400px;
+  color: white;
+  text-align: center;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.4);
+}
+
+.employer-login-box h2 {
+  margin-bottom: 25px;
+  color: #ff2b99; /* Pinkish highlight optional */
+}
+
+.employer-login-box input {
+  width: 100%;
+  padding: 12px 15px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  border: none;
+  font-size: 1rem;
+}
+
+.robot-check {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  font-size: 0.9rem;
+  gap: 5px;
+}
+
+.employer-login-box button {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  background-color: #111;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.employer-login-box button:hover {
+  background-color: #333;
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+  .employer-login-box {
+    width: 90%;
+    padding: 30px;
+  }
+}

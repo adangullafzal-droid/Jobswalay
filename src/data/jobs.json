@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "title": "SEO Intern",
+    "company": "Digital Growth Agency",
+    "location": "Lahore",
+    "type": "Internship",
+    "salary": "15,000 - 25,000 PKR",
+    "description": "We are looking for an SEO Intern to help with keyword research, on-page optimization, and backlink creation.",
+    "requirements": [
+      "Basic understanding of SEO tools",
+      "Knowledge of keyword research",
+      "Interest in content optimization"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Python Intern",
+    "company": "TechCode Solutions",
+    "location": "Karachi",
+    "type": "Internship",
+    "salary": "20,000 - 30,000 PKR",
+    "description": "Join our team as a Python Intern and work on real-time data and web automation projects.",
+    "requirements": [
+      "Basic knowledge of Python programming",
+      "Familiarity with libraries like Pandas or Flask",
+      "Problem-solving skills"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Graphic Designer",
+    "company": "Creative Vision Studio",
+    "location": "Islamabad",
+    "type": "Full-time",
+    "salary": "40,000 - 60,000 PKR",
+    "description": "We need a creative Graphic Designer to design banners, posters, and digital ads for our clients.",
+    "requirements": [
+      "Experience with Adobe Photoshop or Illustrator",
+      "Creative mindset",
+      "Portfolio of design work"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "WordPress Developer",
+    "company": "WP Experts",
+    "location": "Faisalabad",
+    "type": "Full-time",
+    "salary": "50,000 - 70,000 PKR",
+    "description": "Looking for a skilled WordPress Developer to design and customize WordPress websites.",
+    "requirements": [
+      "Experience with WordPress themes and plugins",
+      "Basic understanding of PHP and MySQL",
+      "Ability to troubleshoot website issues"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Social Media Marketer",
+    "company": "BrightBuzz Marketing",
+    "location": "Multan",
+    "type": "Part-time",
+    "salary": "30,000 - 45,000 PKR",
+    "description": "We’re hiring a Social Media Marketer to manage social accounts and plan digital ad campaigns.",
+    "requirements": [
+      "Experience managing Facebook and Instagram pages",
+      "Knowledge of analytics and ad tools",
+      "Good communication skills"
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Virtual Assistant (Upwork)",
+    "company": "Remote Works",
+    "location": "Remote",
+    "type": "Freelance",
+    "salary": "25,000 - 40,000 PKR",
+    "description": "We are hiring a Virtual Assistant to manage administrative tasks, email handling, and client communication on Upwork.",
+    "requirements": [
+      "Strong English communication skills",
+      "Basic understanding of Upwork platform",
+      "Time management and multitasking skills"
+    ]
+  }
+]

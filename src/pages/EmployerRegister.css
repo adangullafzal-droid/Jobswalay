@@ -1,0 +1,61 @@
+.employer-page {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url('https://images.unsplash.com/photo-1562207520-35a269479413?auto=format&fit=crop&w=1470&q=80') center/cover no-repeat;
+  font-family: "Poppins", sans-serif;
+}
+
+.employer-form-container {
+  background: rgba(255,255,255,0.95);
+  padding: 40px;
+  border-radius: 20px;
+  width: 450px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+.employer-form-container h2 {
+  margin-bottom: 25px;
+  color: #ff2b99; /* Pink color */
+}
+
+.employer-form-container h3 {
+  margin: 20px 0 10px 0;
+  color: #ff2b99; /* Pink color for Person in Contact */
+}
+
+.employer-form-container input {
+  width: 100%;
+  padding: 12px 15px;
+  margin-bottom: 12px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+.employer-form-container button {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  background-color: #ff2b99; /* Pink button */
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: 0.3s;
+}
+
+.employer-form-container button:hover {
+  background-color: #e02080; /* Darker pink on hover */
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+  .employer-form-container {
+    width: 90%;
+    padding: 30px;
+  }
+}
